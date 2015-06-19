@@ -1,4 +1,4 @@
-package member;
+package m.member;
 
 import java.io.IOException;
 import java.util.HashMap;

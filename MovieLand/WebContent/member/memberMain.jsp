@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8" />
-	<title>영화관</title>
+	<title>영화관</title>  
 	<style>
 		@import url("<%=request.getContextPath()%>/css/membercss/common.css");
 	</style>
@@ -33,7 +33,7 @@
             <div id="link">
                 <ul>
                     <li><a href="memberAgree.jsp" title="회원가입"><span>회원가입</span></a></li>
-                    <li><a href="#" title="MY영화관"><span>MY영화관</span></a></li>
+                    <li><a href="login.jsp" title="MY영화관"><span>MY영화관</span></a></li>
                     <li><a href="#" title="비회원예매/취소" onclick="reservation()"><span>비회원예매/취소</span></a></li>
                     <li><a href="#" title="고객센터" onclick="custom()"><span>고객센터</span></a></li>
                 </ul>

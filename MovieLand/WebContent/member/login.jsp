@@ -60,12 +60,13 @@
 					<div>
 					<br />
 					<a href="#" class="button h30 w100 gray " title="로그인" onClick="javascript:formChk()"><b>로그인</b></a></td>
+					<a href="memberAgree.jsp" class="button h30 w100 gray " title="회원가입"><b>회원가입</b></a></td> <br/><br/>
+					<b><a class="img-logout" href="#" title="아이디/비밀번호 찾기" onclick="searchId()"><span>아이디/비밀번호찾기 </span></a></b>
 					</div>
 		</fieldset>
 	</form>
 	
-	<br /><br /><br />
-    <a class="img-logout" id="aCommonFINDPWD" href="#" title="아이디/비밀번호 찾기" onclick="searchId()"><span>아이디/비밀번호찾기 </span></a>
+	
 	<br /><br /><br />
 	<div>
 		<table align ="center">
