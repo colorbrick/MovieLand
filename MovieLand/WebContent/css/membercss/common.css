@@ -1,5 +1,22 @@
 @CHARSET "UTF-8";
 
+.center { position:absolute; top:130px; left:40%; width:400px; height:400px; overflow:hidden;}
+
+.login_form {
+	clear:both
+}
+.input_row {
+	position:relative;border:solid 1px #dadada;padding:10px 35px 10px 15px;margin:0 0 10px;background:#fff; width:300px; height:29px;  
+}
+.input_box {
+	display:block;overflow:hidden; 
+}
+.lbl {
+	position:absolute;top:16px;left:15px;z-index:8;font-size:15px;color:#bd0000;line-height:16px
+}
+.int {
+	position:relative;width:100%;padding:7px 0 6px;height:16px;z-index:9;border:none;background:#fff;font-size:15px;color:#000;line-height:16px;-webkit-appearance:none
+}
 html {
 	margin: 0px; padding: 0px; height: 100%; color: rgb(102, 102, 102); font-family: "나눔고딕","NanumGothicRegular",Dotum,Gulim,Helvetica,"Apple SD Gothic Neo",AppleGothic,Sans-serif,Arial; font-size: 12px;
 }
@@ -48,9 +65,7 @@ h6 {
 pre {
 	margin: 0px; padding: 0px;
 }
-input[type=text] {
-	margin: 0px; padding: 0px;
-}
+
 textarea {
 	margin: 0px; padding: 0px;
 }
@@ -188,7 +203,9 @@ div.cirtifi-box {width:1050px;margin:0 auto;}
 }
 div.center-btn{margin-top:38px;}
 
-.input-section {width:950px;margin:0 auto;}
+div.input-section {
+	width:950px;margin:0 auto; font-family: "나눔고딕","NanumGothicRegular",Dotum,Gulim,Helvetica,"Apple SD Gothic Neo",AppleGothic,Sans-serif,Arial; font-size: 12px; text-align:left}
+
 .clear_both {
 	clear: both;
 }

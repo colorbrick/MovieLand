@@ -9,7 +9,7 @@
 		alert("약관 미동의시 회원가입을 하실 수 없습니다.", 
 			"policyNo",
 			"scrollbars, toolbar=no, location=no, directories=no,status=no, menubar=yes, resizable=yes, width=300, height=200, top=200, left=400" )
-		location.replace("memberHeader.jsp") 
+		location.replace("memberMain.jsp") 
 	}
 
 </script>

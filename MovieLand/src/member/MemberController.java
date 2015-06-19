@@ -92,7 +92,7 @@ request.setCharacterEncoding("UTF-8");
 		request.setAttribute("adminPw", adminPw);
 		
 		
-		RequestDispatcher dispatcher = request.getRequestDispatcher("/member/memberHeader.jsp");
+		RequestDispatcher dispatcher = request.getRequestDispatcher("/member/login.jsp");
 		dispatcher.forward(request, response);
 	}
 	
@@ -114,7 +114,7 @@ request.setCharacterEncoding("UTF-8");
 			request.setAttribute("adminId", bean.getAdminId());
 			request.setAttribute("adminPw", bean.getAdminPw());
 			
-			RequestDispatcher dispatcher = request.getRequestDispatcher("/member/memberHeader.jsp");
+			RequestDispatcher dispatcher = request.getRequestDispatcher("/member/login.jsp");
 			dispatcher.forward(request, response);
 			
 		}else{
