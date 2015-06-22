@@ -1,12 +1,15 @@
-package m.member;
+package m.member.serviceimpl;
 
 import java.util.HashMap;
 import java.util.Map;
 
+import m.member.bean.MemberBean;
+import m.member.service.MemberService;
+
 
 public class MemberServiceImpl implements MemberService {
 
-	MembersBean bean = new MembersBean();
+	MemberBean bean = new MemberBean();
 	Map<String,Object> map = new HashMap<String,Object>();
 	
 	@Override

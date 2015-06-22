@@ -1,4 +1,4 @@
-package m.member;
+package m.member.controller;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -11,6 +11,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import m.member.bean.MemberBean;
+import m.member.service.MemberService;
+import m.member.serviceimpl.MemberServiceImpl;
+
 
 
 @WebServlet({"/member.do","/login.do","/member/searchId.do"})
@@ -19,7 +23,7 @@ public class MemberController extends HttpServlet {
 	
 	Map<String, Object> map = new HashMap<String, Object>();
 	MemberService service = new MemberServiceImpl();
-	MembersBean bean = new MembersBean();
+	MemberBean bean = new MemberBean();
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 request.setCharacterEncoding("UTF-8");

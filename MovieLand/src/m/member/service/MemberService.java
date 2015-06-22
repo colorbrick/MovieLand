@@ -1,4 +1,4 @@
-package m.member;
+package m.member.service;
 
 public interface MemberService {
 

@@ -1,6 +1,6 @@
-package m.member;
+package m.member.bean;
 
-public class MembersBean {
+public class MemberBean {
 
 	private String name;
 	private String birthday;
@@ -84,16 +84,16 @@ public class MembersBean {
 	
 		
 	/*
+	name : 이름
+	birthday : 생년월일
+	birthdayRadio : 양력/음력
+	gender : 성별
 	userId : 유저 아이디
 	userPw : 유저 비밀번호
-	name : 이름
 	email : 이메일
-	gender : 성별
-	birthday : 생년월일
-	birthday_radio : 양력/음력
+	phone : 전화번호
 	adminId : 관리자 아이디
 	adminPw : 관리자 비밀번호
-	agree : 약관동의
 	 * */
 	
 }
